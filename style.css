@@ -15,21 +15,7 @@
 }
 
 /* Default Styling */
-/* Preloader */
-.preloader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background: rgb(23, 22, 22);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    transition: opacity 0.3s linear;
-  }
-  
+
 p{
     font-size: 1.2rem;
     font-weight: 100;
@@ -186,6 +172,25 @@ button.blue-btn3:hover {
     background-color: var(--dark-bg);
     color: var(--light-color2)
 }
+
+/* Preloader */
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(23, 22, 22);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: opacity 0.3s linear;
+  }
+  .preloader.loaded{
+    opacity: 0;
+    pointer-events: none;
+  }
  /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
     /* Section1 */
