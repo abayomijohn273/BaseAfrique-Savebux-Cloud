@@ -67,6 +67,16 @@ button.blue-btn3:hover {
     font-weight: bold;
 }
 
+/* Modal Window */
+.modal-content .modal-body .custom-form{
+    height: 3rem;
+    border-radius: 0;
+}
+.modal-content .modal-body .blue-btn4:hover{
+    color: #4B4949 !important;
+    border: 2px solid #4B4949 !important;
+}
+
 /* Navigation Styling */
 .navbar.main-navbar {
     background-color: var(--dark-bg);
@@ -115,12 +125,14 @@ button.blue-btn3:hover {
     background-color: #D7D7D7;
 }
 .section3 .form-row>.col, .form-row>[class*=col-],
- .section6 .form-row>.col, .form-row>[class*=col-] {
+ .section6 .form-row>.col, .form-row>[class*=col-],
+ .modal-content .modal-body form .form-row>.col, .form-row>[class*=col-] {
     padding-right: 15px;
     padding-left: 15px;
 }
 .section3 .custom-btn,
-.section6 .custom-btn{
+.section6 .custom-btn,
+.modal-content .modal-body .custom-btn{
     height: 3rem;
     border-radius: 0;
 }
@@ -190,6 +202,54 @@ button.blue-btn3:hover {
   .preloader.loaded{
     opacity: 0;
     pointer-events: none;
+  }
+  /* Scroll to top button */
+  #toTopButton {
+    display: inline-block;
+    background-color: #32C2BA;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #toTopButton::after {
+    content: "^";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 60px;
+    color: #fff;
+  }
+  #toTopButton:hover {
+    cursor: pointer;
+    background-color: #383B3F;
+  }
+  #toTopButton:active {
+    background-color: #383B3F;
+  }
+  #toTopButton.show {
+    opacity: 1;
+    visibility: visible;
+  } 
+
+  .hidden{
+      visibility: hidden;
+  }
+  .success{
+      visibility: visible;
+      color: green;
+  }
+  .fail {
+    visibility: visible;
+      color: red;
   }
  /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
