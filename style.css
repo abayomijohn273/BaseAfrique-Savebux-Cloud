@@ -1,0 +1,210 @@
+:root {
+    --dark-bg: #383B3F;
+    --slider-bgColor: #9E877A;
+    --white: white;
+    --light-color: #DDDDDD;
+    --light-color2: #A7A7A7 ;
+    --title-color: #4B4949;
+    --content-color: #716868 ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 26px;
+}
+
+/* Default Styling */
+/* Preloader */
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(23, 22, 22);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: opacity 0.3s linear;
+  }
+  
+p{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+button.blue-btn {
+    border: 2px solid #32C2BA !important;
+    background-color: #32C2BA;
+    color: var(--white);
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    transition: all ease-in-out 200ms;
+}
+button.blue-btn:hover {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid #32C2BA;
+    box-shadow: none;
+    outline: none;
+
+}
+button.blue-btn2 {
+    border: 2px solid #4B4949 !important;
+    background-color: #4B4949;
+    color: var(--white);
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    transition: all ease-in-out 200ms;
+}
+button.blue-btn2:hover {
+    background-color: transparent;
+    color: #4B4949;
+    border: 2px solid #4B4949;
+    box-shadow: none;
+    outline: none;
+
+}
+
+button.blue-btn3:hover {
+    color: #4B4949 !important;
+    border: 2px solid #4B4949 !important;
+
+}
+.text-capitalize {
+    text-transform: uppercase !important;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+/* Navigation Styling */
+.navbar.main-navbar {
+    background-color: var(--dark-bg);
+    color: var(--light-color);
+}
+.navbar.main-navbar .navbar-brand{
+    color: var(--light-color);
+    font-weight: bold;
+}
+/* Main Slider */
+.main-slider{
+    height: 100%;
+    background-color: var(--slider-bgColor);
+    background-size: cover;
+}
+/* Sections Styling */
+
+/* Section1 */
+.section1 .image-placeholder{
+    width: 80%;
+}
+.section1 h3{
+    color: var(--title-color);
+}
+.section1 p{
+    color: var(--content-color);
+}
+
+/* Section2 */
+.section2 {
+    background-color: #38393B;
+}
+.section2 p{
+    color: var(--light-color2);
+}
+
+/* Section3  & Section6*/
+.section3 , 
+.section6{
+    background-color: #282C33;
+}
+.section3 .custom-form, 
+.section6 .custom-form{
+    height: 3rem;
+    border-radius: 0;
+    background-color: #D7D7D7;
+}
+.section3 .form-row>.col, .form-row>[class*=col-],
+ .section6 .form-row>.col, .form-row>[class*=col-] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.section3 .custom-btn,
+.section6 .custom-btn{
+    height: 3rem;
+    border-radius: 0;
+}
+
+/* section4 */
+.section4 {
+    background-color: #F4F4F4;
+}
+.section4 h3{
+    color: var(--title-color);
+}
+
+.section4 p{
+    color: var(--light-color);
+}
+.section4 .col-md-4 .card{
+    background-color: #39393E;
+    border: 0;
+    overflow: hidden;
+}
+.section4 .col-md-4 .card, .section4 .col-md-4 .card .card-img-top{
+    border-radius: 0 ;
+}
+.section4 .col-md-4 .card .card-img-top {
+    transition: all 0.4s;
+    transform: scale(1);
+}
+.section4 .col-md-4 .card .card-img-top:hover {
+    transition: all 0.4s;
+    transform: scale(1.1);
+}
+
+/* section5 */
+.section5{
+    background-color: #32C2BA;
+    color: var(--title-color)
+}
+
+/* Section7 */
+.section7{
+    background-color: #F4F4F4;
+    color: var(--title-color);
+}
+.section7 p{
+    font-weight: bold;
+}
+/* footer styling */
+.main-footer{
+    background-color: var(--dark-bg);
+    color: var(--light-color2)
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+    /* Section1 */
+    .section1 .image-placeholder{
+        width: 100%;
+    }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

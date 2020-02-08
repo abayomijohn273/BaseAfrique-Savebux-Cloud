@@ -1,0 +1,9 @@
+{
+  "name": "SaveBox Cloud",
+  "short_name": "SaveBox Cloud",
+  "theme_color": "#383b3f",
+  "background_color": "#383b3f",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}
