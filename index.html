@@ -11,7 +11,8 @@
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Font Style  -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cambay&display=swap" rel="stylesheet">
     <!-- Custom Style -->
     <link href="./style.css" rel="stylesheet"/>
     <!-- Manifest file -->
@@ -22,9 +23,9 @@
     
     <!-- Navigation Header -->
     <header class="">
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top main-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light main-navbar py-3">
             <div class="container">
-            <a class="navbar-brand" href="#">SAVEBOX CLOUD</a>
+            <a class="navbar-brand mt-2" href="#">SAVEBOX CLOUD</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -68,20 +69,20 @@
         <section class="py-5 section1">
             <div class="container">
                 <div class="row py-5">
-                    <div class="col-md-6 mb-3">
+                    <div class="col-md-7 mb-3">
                         <div class="image-placeholder">
                             <img src="./assets/laptop.png" width="100%" alt="Managing Cooperative stress"/>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <h3>
+                    <div class="col-md-5 mb-3">
+                        <h3 class="pb-3">
                             Managing a cooperative can be very stressful.
                         </h3>
-                        <p class="mt-3">
+                        <p class="mt-3 pb-3">
                             From managing loans to managing members data to managing collections to managing savings.
                                 We understand how stressful and how in-efficient it can be.
                         </p>
-                        <button data-toggle="modal" data-target="#requestModal" class="blue-btn blue-btn3 my-3 px-3 py-2">Let us save that stress from you</button>
+                        <button data-toggle="modal" data-target="#requestModal" class="blue-btn my-3">Let us save that stress from you 	&rarr;</button>
                     </div>
                 </div>
             </div>
@@ -90,7 +91,7 @@
             <div class="container">
                 <div class="row pt-3 pb-5">
                     <div class="col-md-6 offset-md-3 pb-3">
-                        <h3 class="text-center text-bold text-capitalize text-white">
+                        <h3 class="text-center text-bold">
                             Our Customers Love Us
                         </h3>
                     </div>
@@ -103,10 +104,10 @@
                             that our members were very happy
                             </q>
                         </p>
-                        <p>
+                        <p class="purple-text">
                             Anita Taiwo, LASU Cooperative
                         </p>
-                        <button data-toggle="modal" data-target="#requestModal" class="blue-btn my-3 px-3 py-2">Request for a free demonstration</button>
+                        <button data-toggle="modal" data-target="#requestModal" class="blue-btn purple-btn my-3 px-3 py-2">Request for a free demonstration</button>
                     </div>
                     <div class="col-md-7 d-flex justify-content-end">
                         <video width="500" controls>
@@ -116,13 +117,15 @@
                         </video>
                     </div>
                 </div>
+                
             </div>
         </section>
-        <section class="py-5 section3">
+        
+        <!-- <section class="py-5 section3">
             <div class="container">
                 <div class="row pt-3 pb-5">
                     <div class="col-md-12 pb-5">
-                        <h3 class="text-center text-bold text-capitalize text-white">Request For Free Demonstration</h3>
+                        <h3 class="text-center text-bold">Request For Free Demonstration</h3>
                     </div>
                     <div class="col">
                     <form id="regForm" method="POST">
@@ -137,154 +140,168 @@
                                 <input type="tel" name = "tel" value="" class="form-control custom-form" placeholder="PHONE" required>
                             </div>
                         </div>
-                        <div class="col-md-4 offset-md-4">
+                        <div class="col-md-4 offset-md-4 col-sm-12 col-xs-12">
                             <button type="submit" class="submitBtn form-control blue-btn custom-btn px-3 py-2">SUBMIT</button>
                         </div>
                     </form>
                 </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="py-5 section4">
-            <div class="container text-center pt-3 pb-5">
+            <div class="container pt-3 pb-5">
             <div class="row ">
                 <div class="col-md-12 pb-5">
-                    <h3 class="text-center text-bold text-capitalize">Amazing Features</h3>
+                    <h3 class="text-center text-bold purple-text">Amazing Features</h3>
                 </div>
 
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/memberMgt.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/memberMgt.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Easy Member Management</p>
+                            <p class="card-text green-text">Easy Member Management</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/exeReport.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/exeReport.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Automatically Generated Reports</p>
+                            <p class="card-text blue-text">Automatically Generated Reports</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/execReport.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/execReport.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Easy Reports For Executives</p>
+                            <p class="card-text purple-text">Easy Reports For Executives</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/account.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/account.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Automated Savings Management</p>
+                            <p class="card-text green-text">Automated Savings Management</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/reconciliation.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/reconciliation.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Automated Account Reconcilation</p>
+                            <p class="card-text blue-text">Automated Account Reconcilation</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/easyUse.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/easyUse.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Simple &amp; Easy To Use For Everyone</p>
+                            <p class="card-text purple-text">Simple &amp; Easy To Use For Everyone</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/automatedApplication.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/automatedApplication.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Efficient Automation Application &amp; Management</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 mb-5">
-                    <div class="card" >
-                        <img src="./assets/emailNotification.png" width="100%"class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Automated SMS &amp; Email Notifications</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card" >
-                        <img src="./assets/autoDividend.png" width="100%"class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Efficient Automated Dividend Management</p>
+                            <p class="card-text green-text">Efficient Automation Application &amp; Management</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/incomeExpense.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/emailNotification.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Automatic Income &amp; Expense Management</p>
+                            <p class="card-text blue-text">Automated SMS &amp; Email Notifications</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/export.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/autoDividend.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Automatic Data Import from Excel &amp; other Sources</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card" >
-                        <img src="./assets/integrationWithPayroll.png" width="100%"class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Automatic Integrations With Payroll &amp; other External Systems</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card" >
-                        <img src="./assets/coopMarket.png" width="100%"class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Automatic Integration With Cooperative Supermarket</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card" >
-                        <img src="./assets/personalSavings.png" width="100%"class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Personal Savings &amp; Loan Management For Members</p>
+                            <p class="card-text purple-text">Efficient Automated Dividend Management</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/moreFunctions.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/incomeExpense.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Easily Extensible to Suit Your Every Needs</p>
+                            <p class="card-text green-text">Automatic Income &amp; Expense Management</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
                         </div>
                     </div>
                 </div>
-            </div>   
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-4 mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card" >
-                        <img src="./assets/securedDB.png" width="100%"class="card-img-top" alt="...">
+                        <!-- <img src="./assets/export.png" width="100%"class="card-img-top" alt="..."> -->
                         <div class="card-body">
-                            <p class="card-text">Highly Secured Database Systems</p>
+                            <p class="card-text blue-text">Automatic Data Import from Excel &amp; other Sources</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-md-6 mb-5">
+                    <div class="card" >
+                        <!-- <img src="./assets/integrationWithPayroll.png" width="100%"class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <p class="card-text purple-text">Automatic Integrations With Payroll &amp; other Systems</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="card" >
+                        <!-- <img src="./assets/coopMarket.png" width="100%"class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <p class="card-text green-text">Automatic Integration With Cooperative Supermarket</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="card" >
+                        <!-- <img src="./assets/personalSavings.png" width="100%"class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <p class="card-text blue-text">Personal Savings &amp; Loan Management For Members</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-5">
+                    <div class="card" >
+                        <!-- <img src="./assets/moreFunctions.png" width="100%"class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <p class="card-text purple-text">Easily Extensible to Suit Your Every Needs</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="card" >
+                        <!-- <img src="./assets/securedDB.png" width="100%"class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <p class="card-text blue-text">Highly Secured Database Systems</p>
+                            <p>Automatic Integration With Cooperative Supermarket. Automatic Integration With Cooperative Supermarket</p>
+                    </div>
+                </div>
+            </div> 
         </div>    
         </div>
         </section>
@@ -299,43 +316,32 @@
                         </h3>
                     </div>
                     <div class="col-md-5 py-3">
-                        <button data-toggle="modal" data-target="#requestModal" class="blue-btn2 px-3 py-2">Request for a free demonstration</button>
+                        <button data-toggle="modal" data-target="#requestModal" class="blue-btn purple-btn px-3 py-2">Request for a free demonstration</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-5 section6">
-            <div class="container">
-                <div class="row pt-3 pb-5">
-                    <div class="col-md-12 mb-5">
-                        <h3 class="text-center text-bold text-capitalize text-white">Request For Free Demonstration</h3>
+        <section class="pt-5 pb-3 section7">
+            
+            <div class="container ">
+                <div class="row  text-center">
+                    <div class="col-lg-3 col-md-3 mb-3 col-sm-6 col-xs-6">
+                    <a href=""><p class="customerLink">LASU ASCMS</p></a>
                     </div>
-                    <div class="col">
-                    <form id="regForm" method="POST">
-                        <div class="form-row">
-                            <div class="col-md-4 mb-5">
-                                <input type="text" name = "name" value="" class="form-control custom-form" placeholder="NAME" required>
-                            </div>
-                            <div class="col-md-4 mb-5">
-                                <input type="email" name = "email" value="" class="form-control custom-form" placeholder="EMAIL" required>
-                            </div>
-                            <div class="col-md-4 mb-5">
-                                <input type="tel" name = "tel" value="" class="form-control custom-form" placeholder="PHONE" required>
-                            </div>
-                        </div>
-                        <div class="col-md-4 offset-md-4">
-                            <button type="submit" class="submitBtn form-control blue-btn custom-btn px-3 py-2">SUBMIT</button>
-                        </div>
-                    </form>
+                    <div class="col-lg-3 col-md-3 mb-3 col-sm-6 col-xs-6">
+                        <a href=""><p class="customerLink">FCFMT COOPERATIVE</p></a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 mb-3 col-sm-6 col-xs-6">
+                        <a href=""><p class="customerLink">FEDPOLY OKENE</p></a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 mb-3 col-sm-6 col-xs-6">
+                        <a href=""><p class="customerLink">FERMA</p></a>
+                    </div>
                 </div>
-                </div>
-            </div>
-        </section>
-        <section class="py-5 section7">
-            <div class="container text-capitalize">
-                <div class="row pt-5 pb-5 text-center">
+                <!-- <div class="row pt-5 pb-5 text-center">
+                    
                     <div class="col-md-12 pb-5">
-                        <h3 class="text-center text-bold text-capitalize">Our Customers</h3>
+                        <h3 class="text-center text-bold ">Our Customers</h3>
                     </div>
                     <div class="col-md-3 mb-3">
                     <p>Lasu Ascms</p>
@@ -349,9 +355,10 @@
                     <div class="col-md-3 mb-3">
                         <p>Ferma</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
+        
     </main>
     <!-- Footer -->
     <footer class="footer main-footer pt-4 pb-3">
