@@ -148,6 +148,7 @@ header{
 .section6 .custom-form{
     height: 3rem;
     border-radius: 4px;
+    border-color: var(--purple-text);
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
     /* background-color: #D7D7D7; */
 }
